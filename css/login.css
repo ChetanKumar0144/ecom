@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+h1{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+button{
+    cursor: pointer;
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    border: none;
+    width: 100%;
+}
+section{
+    width: 30%;
+    margin: 3rem auto;
+    padding: 1rem;
+    box-shadow: 0 0 1rem #111;
+    border-radius:.2rem ;
+}  
+#register{
+    display: none;
+}
+#login{
+    display: block;
+}
+.pointer{
+    cursor: pointer;
+}
+section.login{
+    margin-top: 7rem;
+}
+form .input-container input{
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    border-radius: .2rem;
+    width: 100%;
+    outline: none;
+    border: 1px solid #111;
+}
+form .input-container input:hover{
+    box-shadow: 0 0 .5rem rgb(160, 153, 153);
+}
+.button{
+    margin: .7rem auto;
+}
+.btn-submit{
+    background-color: #e0e0dc;
+    font-size:medium;
+    color: grey;
+    font-weight: 500;
+}
+.btn-submit:hover{
+   
+    box-sizing: border-box;
+    box-shadow: 0 0 .5rem rgb(160, 153, 153);
+
+}
+.extra{
+    margin-bottom: .5rem;
+}
+.extra span,a{
+    margin-left: .5rem;
+}
+.extra p{
+    text-transform: capitalize;
+    color: grey;
+}
+.extra p span{
+    color: blue;
+}
